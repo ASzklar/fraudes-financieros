@@ -2,13 +2,14 @@ import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
 
-#df = pd.read_csv('fraudes_limpio.csv')
+df = pd.read_csv('https://drive.google.com/file/d/1YvSbFLTblzd7kfYxW6IMNT9JIM_8WHLv/view?usp=drive_link')
+
 
 st.title("Probando Streamlit :hand:")
 st.text("No Country Proyecto detección de fraudes")
 st.image("fraude_imagen.png")
 
-#st.radio("Elige una opción", df.columns)
+st.radio("Elige una opción", df.columns)
 
 #fraudes = df[df['isFraud'] == 1]
 
