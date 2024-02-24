@@ -36,7 +36,7 @@ except Exception as e:
     exit()
 
 # Display the DataFrame head
-st.header("Dataframe Head")
+st.header("Primeros registros del DataFrame")
 st.dataframe(df.head())
 
 # User interface elements

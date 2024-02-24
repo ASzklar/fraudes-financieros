@@ -6,3 +6,4 @@ googleapiclient.discovery
 io
 google-auth-oauthlib
 google-auth
+logging
