@@ -4,3 +4,5 @@ matplotlib
 google.oauth2
 googleapiclient.discovery
 io
+google-auth-oauthlib
+google-auth
