@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 import io
+import logging
 
 # Error handling and logging
-import logging
 logging.basicConfig(level=logging.DEBUG)
 
 # ID of your CSV file
@@ -78,5 +78,5 @@ st.markdown("***This is a placeholder for further analysis of the data based on 
 #@st.cache(allow_output_mutation=True)
 
 # Run the app
-if __name__ == "__main__":
-    st.run()
+#if __name__ == "__main__":
+#   st.run()
