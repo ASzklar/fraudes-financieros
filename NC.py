@@ -40,10 +40,11 @@ import streamlit as st
 # st.dataframe(df.head())
 
 # User interface elements
-st.title("Probando Streamlit :hand:")
-st.text("No Country Proyecto detección de fraudes")
-
+st.title("Detección de fraudes en transacciones bancarias")
 st.image("fraude_imagen.png")
+st.markdown('**En el análisis exploratorio de datos encontramos las siguientes distribuciones:**')
+st.image("Distr_tipo_transacc.png")
+st.image("Distr_fraude_tipo_transacc.png")
 
 # Display image if it exists
 # try:
