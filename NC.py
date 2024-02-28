@@ -45,6 +45,21 @@ st.image("fraude_imagen.png")
 st.markdown('**En el análisis exploratorio de datos encontramos las siguientes distribuciones:**')
 st.image("Distr_tipo_transacc.png")
 st.image("Distr_fraude_tipo_transacc.png")
+st.markdown("***Proporción de transacciones fraudulentas sobre el total***")
+st.image("Torta_proporc_fraud.png")
+st.markdown("*Es útil observar la distribución de los montos de las transacciones, tanto en general como filtrados por fraude.*")
+st.image("Distr_mont_por_transacc.png")
+st.image("Distr_mont_transacc_fraud.png")
+st.markdown("***Boxplot de Montos por Tipo de Transacción y Fraude***")
+st.image("boxplot_mont_tipo_y_fraud.png")
+st.markdown("*Exploramos los montos involucrados en las transacciones fraudulentas*")
+st.image("Boxplot_mont_transacc_fraud_y_no_fraud.png")
+st.markdown("Comparar cómo cambian los saldos antes y después de las transacciones, distinguiendo entre transacciones fraudulentas y legítimas.")
+st.image("Comparac_saldos.png")
+st.markdown("Análisis de la Relación entre Montos de Transacción y Fraude por Tipo de Transacción Analizar cómo se relacionan los montos de transacción con el fraude, segmentado por tipo de transacción.")
+st.image("Boxplot_mont_tipo_y_fraud_2.png")
+
+
 
 # Display image if it exists
 # try:
